@@ -1,0 +1,7 @@
+is part mai hamny ye kam kiye hai :
+*  sabs sy phly ham ny form ky liye parsers ko set kiye hai.
+*  dsry number py ham ny view engibe ko ejs par set kiya hai taky ejs pages ko frontend par bhaij saky. EJS bhi html ki tarha hoty hai magar EJS mai plus point ye hai ky ham osy bta sakty hai ky yaha par calculations kar ky data show karwana hai or is ky ilawa web paes ko dynamic bna sakty hai.ejs pages ko ham haisha "views" name ky folder mai rakhy gy or ye folder haisha root folder mai bnaya jaye ga.
+*  3sry number par ham ny static files i.e. javascripts , stylesheets , pictures etc. ko public folder mai set kiya, ham ny express app ko btaya ky jab bhi static files ki zarorat ho to wo inhy public folder mai dhondy.
+      app.use(express.static(path.join(__dirname,"public"))) ;
+yaha par __dirname ny current root folder ka path dy gi or osy os folder sy jor dy gi jo ham ny is opr diye gaye code mai mention kiya hai. or os folder ko ham haisha root folder ky andar bnye gy.
+*  4thy number par ham ny daikha ky ham kaisy dynamic routes bna sakty hai. hamy jis chiz ko dynamic bnana hota hai ham os sy phly (:) colon laga daita hai. ab frontend sy jab bhi koi request aye gi to ham osy req.params sy nikal sakty hai or os sy dynamic chizy bna sakty hai.
